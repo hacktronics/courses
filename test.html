@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script type="text/javascript">
-    fetch('http://127.0.0.1:8080/getitemdetail?slotNum=1', {mode: 'no-cors'})
+    fetch('http://127.0.0.1:8080/getitemdetail?slotNum=1', {crossDomain:true})
             .then(res => res.json())
             .then(data => window.console.log(data))
   </script>
