@@ -1,0 +1,71 @@
+.tutorial {
+  text-align: justify;
+  padding: 0.5em;
+}
+
+.frame {
+  min-height: inherit;
+  width: 100%;
+  height: calc(90vh - 126px);
+  min-width: -moz-available;
+  min-width: -webkit-fill-available;
+  overflow-y: scroll;
+}
+
+.imgPara {
+  margin: auto;
+  text-align: center;
+}
+
+.tutorial img {
+  width: 98%;
+  margin: auto;
+  border: 1px solid #888;
+}
+
+.pImgC {
+  text-align: center;
+}
+
+.imgCenter {
+  width: fit-content !important;
+  max-width: 98%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  border: 0px solid #FFF !important;
+}
+
+.imgSVG {
+  width: fit-content !important;
+  margin-right: auto !important;
+  margin-left: 0px !important;
+  border: 0px solid #FFF !important;
+}
+
+.mt-2 {
+  margin-top: 0.5em;
+}
+
+.block3events {
+  background-color: #ffbf00;
+  padding: 3px;
+  color: white !important;
+  border-radius: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.block3motion {
+  background-color: #4c97ff;
+  padding: 3px;
+  color: white !important;
+  border-radius: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+body {
+  background-color: hsla(215, 100%, 65%, 0.15);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: hsla(225, 15%, 40%, 1);
+}
