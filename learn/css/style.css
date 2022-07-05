@@ -1,20 +1,21 @@
 .tutorial {
   text-align: justify;
   padding: 0.5em;
+  line-height: 1.75rem;
 }
 
 .frame {
-  min-height: inherit;
-  width: 100%;
-  height: calc(90vh - 126px);
-  min-width: -moz-available;
-  min-width: -webkit-fill-available;
-  overflow-y: scroll;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .imgPara {
   margin: auto;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tutorial img {
