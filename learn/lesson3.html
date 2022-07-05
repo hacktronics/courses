@@ -9,7 +9,12 @@
 </head>
 <body>
   <div class="tutorial frame">
-    <iframe class="imgPara" width="560px" height="315px" src="https://www.youtube.com/embed/NqMd44Oi2l4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="vidcontainer" >
+      <video class="vidcontent" width="500" height="281" autoplay controls loop>
+        <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
     <h2>What is CodeSkool?</h2>
     <p>
         Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab.
@@ -25,9 +30,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function(event) {
       const iframe = document.querySelector("iframe");
-      console.log(iframe, document.body.scrollHeight);
-      iframe.style.height = Math.round(screen.availHeight * 0.85)+ "px";
-      iframe.style.width = Math.round(screen.availWidth * 0.85)+ "px";
+
     });
   </script>
 </body>
