@@ -9,21 +9,12 @@
 </head>
 <body>
   <div class="tutorial frame">
+    <iframe class="imgPara" width="560px" height="315px" src="https://www.youtube.com/embed/NqMd44Oi2l4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h2>What is CodeSkool?</h2>
     <p>
         Scratch is a graphical programming language developed by the Lifelong Kindergarten group at the MIT Media Lab.
         In Scratch, you can drag and combine code blocks to make a range of programs, including animations, stories,
         musical instruments, and games. It’s a bit like the programming equivalent of building blocks!
-    </p>
-    <p class="imgPara">
-        <img
-            src="./images/codeskool.jpg"
-            alt="Code Skool"
-        />
-    </p>
-    <p>
-        Scratch is used in many schools as part of the curriculum.
-        It is free, and young people can use it at home as well as in clubs.
     </p>
     <p>
         Scratch allows young people to learn coding concepts and create interactive projects without
@@ -31,5 +22,13 @@
         or remember complex code to use Scratch.
     </p>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      const iframe = document.querySelector("iframe");
+      console.log(iframe, document.body.scrollHeight);
+      iframe.style.height = Math.round(screen.availHeight * 0.85)+ "px";
+      iframe.style.width = Math.round(screen.availWidth * 0.85)+ "px";
+    });
+  </script>
 </body>
 </html>
