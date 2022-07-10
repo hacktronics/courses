@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quiz3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="js/quiz3.js"></script>
+    <title>Lessons CodeSkool</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row align-items-center">
+        <form class="multisteps_form bg-white position-relative overflow-hidden" id="wizard" method="POST" action="../thankyou/index-1.html">
+          <div class="multisteps_form_panel step active" style="display: block">
+            <div class="question_number ps-5 pt-3"></div>
+            <div class="question_title">
+              <h1 class="text-center px-5 py-5">Which block script will activate once the Green Flag has been clicked?</h1>
+            </div>
+            <div class="row form_items">
+              <div class="col-md-6">
+                <div class="form_items_content bg-white text-center position-relative step_1">
+                  <label for="opt_1" class="d-block">
+                    <span class="form_items_icon">
+                      <img src="images/assets/move10steps.svg" alt="image-not-found" />
+                    </span>
+                    <span class="form_items_text pt-2 d-block"> Move steps </span>
+                    <span class="service-check-option">
+                      <span><input id="opt_1" type="radio" name="stp_1_select_option" value="Spirit" wfd-invisible="true" /></span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form_items_content bg-white text-center position-relative step_1 correct">
+                  <label for="opt_2" class="d-block">
+                    <span class="form_items_icon">
+                      <img src="images/assets/greenflag.svg" alt="image-not-found" />
+                    </span>
+                    <span class="form_items_text pt-2 d-block"> When flag clicked </span>
+                    <span class="service-check-option">
+                      <span><input id="opt_2" type="radio" name="stp_1_select_option" value="Union" wfd-invisible="true" /></span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form_items_content bg-white text-center position-relative step_1">
+                  <label for="opt_3" class="d-block">
+                    <span class="form_items_icon">
+                      <img src="images/assets/forever.svg" alt="image-not-found" />
+                    </span>
+                    <span class="form_items_text pt-2 d-block"> Forever loop </span>
+                    <span class="service-check-option">
+                      <span><input id="opt_3" type="radio" name="stp_1_select_option" value="Posture" wfd-invisible="true" /></span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form_items_content bg-white text-center position-relative step_1">
+                  <label for="opt_4" class="d-block">
+                    <span class="form_items_icon">
+                      <img src="images/assets/whenspriteclicked.svg" alt="image-not-found" />
+                    </span>
+                    <span class="form_items_text pt-2 d-block"> Sprite clicked </span>
+                    <span class="service-check-option">
+                      <span><input id="opt_4" type="radio" name="stp_1_select_option" value="Proper Exercise" wfd-invisible="true" /></span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

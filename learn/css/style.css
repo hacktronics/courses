@@ -81,3 +81,25 @@ body {
   height: 90%;
   width: 90%;
 }
+
+a, button, input {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#readAloud {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0px #FFF solid !important;
+  float: right;
+  cursor: pointer;
+}
+
+.readAloudContainer {
+  width: 100%;
+}
+
+.pushUp {
+  margin-top: 0.5rem;
+}

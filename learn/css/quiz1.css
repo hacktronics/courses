@@ -1,0 +1,104 @@
+
+.quiz1 {
+  background-image: url("../images/assets/bgqz1.png");
+}
+
+.question_title h1 {
+  color: #4f5166;
+  font-size: 2.1875rem;
+  border: 1px solid #91e2a8;
+  border-bottom: 2px solid #91e2a8;
+  padding: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.3125rem;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row li.active {
+  color: #22a247;
+  border: 2px solid #22a247;
+  border-bottom: 3px solid #22a247;
+  border-radius: 0.3125rem;
+  background-color: #def7e5;
+}
+
+.row li:after {
+  content: "";
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0.3125rem;
+  background-color: #def7e5;
+}
+
+.row li.active:after {
+  background: -webkit-gradient(linear, left top, right top, from(#46fac8), to(#0aba4f));
+  background: linear-gradient(to right, #46fac8, #0aba4f);
+}
+
+.row li.active:before {
+  content: "";
+  top: 50%;
+  left: 19px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.3125rem;
+  color: #fff;
+  display: inline-block;
+  z-index: 2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFF' d='M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.row li input {
+  display: none;
+}
+
+.row li label {
+  margin-bottom: 0rem;
+  margin-left: 0.5rem;
+}
+
+.row li span {
+  top: 50%;
+  left: 27px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.row li.active span {
+  display: none;
+}
+
+.row li {
+  width: 40%;
+  color: #464646;
+  font-size: 1.375rem;
+  margin-right: 1.5625rem;
+  padding: 1.25rem 2rem;
+  font-weight: 800;
+  cursor: pointer;
+  border: 2px solid #d2d2d2;
+  border-radius: 0.3125rem;
+  background-color: #FFF;
+}
+
+
+.row li label{
+  font-size: 1.575rem;
+  color: #636363;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 30px;
+  margin: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  background: -webkit-linear-gradient(#544cf9, #814cf9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Acme', sans-serif;
+  padding: 1rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+
+.drag:last-of-type {
+  margin-bottom: 0px;
+}
+
+.drag:first-of-type {
+  margin-top: 0px;
+}
+
+.drag:hover {
+  background-color: #f94a34;
+}
+
+#dropCodeBlocks {
+  background: #FFF;
+  border-radius: 5px;
+  height: 215px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding-top: 5px;
+  width: 110px;
+}
+
+#blocksHolder {
+  background: #fff;
+  border-radius: 5px;
+  height: 110px;
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blocksHolder div {
+  margin: 1rem;
+  background-color: #CDCDCD;
+  padding: 1rem;
+  min-height: 5rem;
+  min-width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blocksHolder {
+  .drag:first-of-type {
+    margin-top: 0px;
+  }
+}
+
+#dropCodeBlocks .block {
+  margin-top: -10px;
+}
